@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Main">
+      <UniqueIdentifier>{a2b21bc7-cfd3-4fcc-aeff-8bd88c092643}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\PlayerInput">
+      <UniqueIdentifier>{29bfb7d8-97e7-48a4-8abf-2522f6f920bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\RandomWeaponGenerator">
+      <UniqueIdentifier>{9dce170e-2aa9-439e-a011-d3e40395d166}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Render">
+      <UniqueIdentifier>{f25eabb9-2379-4b6f-8c02-e4b1e4751ba9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Render\Base">
+      <UniqueIdentifier>{0fd773ad-cac1-4844-9e1a-2f45b079748b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Render\Implementation">
+      <UniqueIdentifier>{12b1997e-602e-4107-8729-5353a51e01ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\RandomInteger">
+      <UniqueIdentifier>{266eb389-8172-40d7-830a-0b098d513b60}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Weapon">
+      <UniqueIdentifier>{d66510d5-dd65-4d30-ab11-6c36a6ed0fd0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Weapon\Base">
+      <UniqueIdentifier>{3a0d9c32-4b2c-4f9a-8a59-dfd374c7b86b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Weapon\Implementation">
+      <UniqueIdentifier>{10f33a83-8195-4eaf-883a-090e8af7695f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="WeaponDropGame.cpp">
+      <Filter>Source Files\Main</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Game.h">
+      <Filter>Source Files\Main</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerInput.h">
+      <Filter>Source Files\PlayerInput</Filter>
+    </ClInclude>
+    <ClInclude Include="RandomWeaponGenerator.h">
+      <Filter>Source Files\RandomWeaponGenerator</Filter>
+    </ClInclude>
+    <ClInclude Include="ItemRender.h">
+      <Filter>Source Files\Render\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="RifleRender.h">
+      <Filter>Source Files\Render\Implementation</Filter>
+    </ClInclude>
+    <ClInclude Include="PistolRender.h">
+      <Filter>Source Files\Render\Implementation</Filter>
+    </ClInclude>
+    <ClInclude Include="ShotgunRender.h">
+      <Filter>Source Files\Render\Implementation</Filter>
+    </ClInclude>
+    <ClInclude Include="RandomInteger.h">
+      <Filter>Source Files\RandomInteger</Filter>
+    </ClInclude>
+    <ClInclude Include="WeaponData.h">
+      <Filter>Source Files\Weapon\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="PistolData.h">
+      <Filter>Source Files\Weapon\Implementation</Filter>
+    </ClInclude>
+    <ClInclude Include="ShotgunData.h">
+      <Filter>Source Files\Weapon\Implementation</Filter>
+    </ClInclude>
+    <ClInclude Include="RifleData.h">
+      <Filter>Source Files\Weapon\Implementation</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
